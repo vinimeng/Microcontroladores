@@ -11,7 +11,7 @@
 #include "eeprom.h"
 
 void main() {
-    unsigned char i;
+    unsigned char i = 0;
     unsigned char tmp = 0;
 
     TRISA = 0b11111111;
